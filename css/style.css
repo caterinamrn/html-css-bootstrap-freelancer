@@ -11,6 +11,11 @@
   background-color: pink;
 }
 
+header section:first-child {
+  background-color: #2c3e50;
+  position: fixed;
+  z-index: 80;
+}
 
 header,footer, main section:first-child {
   background-color: blue;
