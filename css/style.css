@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: Montserrat;
 }
+section {
+  padding-bottom: 10%;
+}
 
 /* separatore */
 .separatore {
@@ -75,8 +78,17 @@ header nav li {
   background-color: #1abc9c;
   color: white;
 }
-#about h2, #about .separatore {
+#about h2, #about .separatore, #about .posizionamento {
   text-align: center;
+}
+.download-button {
+  display: inline-block;
+  border: white 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 5%;
+  color: white;
 }
 
 /* sezione contact me  */
@@ -84,7 +96,16 @@ header nav li {
   color:#2c3e50;
   text-align: center;
 }
-
+#contact .form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  box-shadow: none;
+}
+#contact .btn-default {
+  background-color:#1abc9c;
+  color: white;
+  font-weight:bold;
+}
 /* footer */
 footer {
   color:white;
@@ -98,7 +119,11 @@ footer section:first-child a i{
   color: white;
   border: 1px solid white;
   border-radius: 50%;
-  padding:2%;
+  padding:10px;
+  margin: 0 5px;
+}
+footer section:first-child p a {
+  color: #1abc9c;
 }
 /* sezione copyright */
 footer section:last-child {
