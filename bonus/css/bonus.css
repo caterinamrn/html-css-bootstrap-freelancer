@@ -49,9 +49,16 @@ header section:first-child {
   width: 100%;
   height: 80px;
 }
-header section:first-child a, header section:first-child i{
+header section:first-child a{
   color: white;
 }
+.fas.fa-bars {
+  color: grey;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 2% 5%;
+}
+
 #menu-md{
   text-align: right;
 }
@@ -63,13 +70,11 @@ header #menu-md li {
   display: none;
 }
 .dropdown {
-  position: relative;
-  left:85%;
+  text-align: right;
 }
 .dropdown-content {
-  position: absolute;
-  left: -75%;
   display: none;
+  text-align: left;
 }
 .dropdown-content li{
   list-style: none;
@@ -77,7 +82,6 @@ header #menu-md li {
 .dropdown:hover .dropdown-content {
   display: block;
   background-color: #2c3e50;
-  width: 100%;
   padding: 10%;
 }
 /* menu hamburger */
