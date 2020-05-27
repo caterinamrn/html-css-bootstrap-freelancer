@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 
- main section, #jumbotron {
+ main section, #jumbotron, footer section {
   padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 /* separatore */
@@ -57,11 +58,11 @@ header .navbar-default .navbar-nav>li>a {
   color: white;
 }
 #jumbotron h1 {
-  font-size: 36px;
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 700;
   font-family: Montserrat;
 }
+
 #jumbotron img{
   width: 15em;
 }
@@ -75,7 +76,7 @@ header .navbar-default .navbar-nav>li>a {
 main h2 {
   font-family: Montserrat;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 /* sezione portfolio */
 #portfolio {
@@ -86,7 +87,7 @@ main h2 {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 /* sezione about */
@@ -129,6 +130,9 @@ main h2 {
   background-color:#1abc9c;
   color: white;
   font-weight:bold;
+}
+#contact .form-control::placeholder {
+  color: #2c3e50;
 }
 /* footer */
 footer {
