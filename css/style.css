@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.centratura  {
+  width: 90%;
+}
  main section, #jumbotron, footer section {
   padding-bottom: 5%;
   padding-top: 5%;
@@ -50,6 +52,15 @@ header .navbar-default .navbar-brand {
 header .navbar-default .navbar-nav>li>a {
   color: white;
 }
+
+
+ .navbar-default .navbar-brand:hover {
+   color: white;
+ }
+ .navbar-default .navbar-nav > li > a:hover {
+  color:#1abc9c;
+}
+
 /* jumbotron */
 #jumbotron {
   padding-top: 100px;
@@ -115,6 +126,12 @@ main h2 {
   font-size: 1.25em;
   font-weight: 300;
 }
+.download-button:hover {
+  color: #2c3e50;
+  background-color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
 
 /* sezione contact me  */
 #contact h2, #contact .separatore {
@@ -133,6 +150,9 @@ main h2 {
 }
 #contact .form-control::placeholder {
   color: #2c3e50;
+}
+#contact .btn-default:hover {
+  background-color: #117964;
 }
 /* footer */
 footer {
@@ -156,10 +176,19 @@ footer .icone {
   border-radius: 100%;
   margin-right: 10px;
 }
+footer .icone:hover {
+  background-color: white;
 
+}
+footer .icone:hover i {
+    color:#1a252f;
+}
 footer p> a {
   color: #1abc9c;
   font-weight: bold;
+}
+footer p>a:hover {
+  color: #117964;
 }
 /* sezione copyright */
 footer section:last-child {
